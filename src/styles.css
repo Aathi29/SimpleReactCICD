@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #343a40;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 8px;
+  }
+  
+  nav a:hover {
+    background-color: #495057;
+    border-radius: 5px;
+  }
+  
+  /* Forms */
+  .form-container {
+    background: white;
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: #343a40;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Blog Posts */
+  .post {
+    background: white;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post h3 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .post p {
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Home Page */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #343a40;
+  }
+  
