@@ -6,7 +6,7 @@ on:
       - main
   pull_request:
     branches:
-      - master
+      - main  # Changed to 'main' for consistency
 
 jobs:
   build:
@@ -27,11 +27,11 @@ jobs:
       - name: Build
         run: npm run build
 
-       - name: Run Tests
+      - name: Run Tests
         run: npm test
 
   docker-build-push:
-    needs: build-test
+    needs: build  # Changed 'build-test' to 'build'
     runs-on: ubuntu-latest
 
     steps:
