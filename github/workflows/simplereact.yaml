@@ -7,7 +7,7 @@ on:
 
   pull_request:
     branches:
-      - main  # Changed to 'main' for consistency
+      - master # Changed to 'main' for consistency
 
 jobs:
   build:
